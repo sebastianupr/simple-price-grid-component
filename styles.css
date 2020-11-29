@@ -1,0 +1,109 @@
+body{
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+}
+
+h1,h2,h3 {
+  color: hsl(179, 62%, 43%);
+}
+
+.container{
+    padding: 20px 50px;
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+.component{
+    overflow: hidden;
+    display: grid;
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    -webkit-box-shadow: 1px -1px 28px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 28px -16px rgba(0,0,0,0.75);
+    box-shadow: 1px -1px 28px -16px rgba(0,0,0,0.75);
+}
+
+.content{
+    padding: 35px;
+}
+
+@media only screen and (min-width: 767px) {
+    .container{
+        padding: 0;
+        height: 100vh;
+    }
+    .component{
+        width: 600px;
+        grid-template-rows: 2;
+    }
+    .more-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Head section */
+h2{
+    margin-top: 0;
+}
+
+.text{
+    margin-top:10px;
+}
+
+.text h4{
+    margin-bottom: 10px;
+    color:hsl(71, 73%, 54%);
+}
+
+.text p {
+    color: hsl(218, 22%, 67%);
+}
+
+/* Price section */
+div.price-info {
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+}
+
+h4.title{
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+p.price{
+    font-size:50px;
+    display: inline;
+}
+
+p.sub-text{
+    color: #83e5ea;
+    margin-left: 10px;
+    display: inline;
+}
+
+button.btn{
+    width: 100%;
+    padding: 10px 50px;
+    border-radius: 7px;
+    border: none;
+    color:white;
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: hsl(71, 73%, 54%);
+    -webkit-box-shadow: 1px -1px 28px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 28px -16px rgba(0,0,0,0.75);
+    box-shadow: 1px -1px 28px -16px rgba(0,0,0,0.75);
+}
+
+/* Why section */
+div.why-info{
+    background-color: #4abebd;
+    color: white;
+}
+
+p.text{
+    line-height: 26px;
+}
+
